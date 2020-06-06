@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    justify-content: center;
+    width: 85%;
+}
+
+/* for cell phones and tablets */
+@media (max-width: 770px) {
+    .container {
+        width: 100%;
+    }
+}
