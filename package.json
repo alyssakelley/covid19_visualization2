@@ -1,4 +1,5 @@
 {
+  "homepage": "https://alyssakelley.github.io/covid19_visualization",
   "name": "covid19_visualization",
   "version": "0.1.0",
   "private": true,
@@ -24,6 +25,8 @@
     "tableau-react": "^1.2.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -43,5 +46,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.0.0"
   }
 }
